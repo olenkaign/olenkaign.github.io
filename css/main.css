@@ -33,7 +33,7 @@ svg {
 	width: 250px;
 	height: 100px;
 	box-shadow: 0 0 32px 10px #ccc;
-	left: 200px;
+	left: 300px;
 	bottom: calc(50% - 100px);
 	font-family: sans-serif;
 }
