@@ -28,12 +28,12 @@ svg {
 .description {
 	display: none;
 	position: absolute;
-	padding: 20px;
+	padding: 200px;
 	box-sizing: border-box;
 	width: 100px;
 	height: 100px;
 	box-shadow: 0 0 32px 10px #ccc;
-	left: 500px;
+	left: 50px;
 	bottom: calc(50% - 100px);
 	font-family: sans-serif;
 }
