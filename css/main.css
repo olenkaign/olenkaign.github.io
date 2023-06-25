@@ -1,0 +1,54 @@
+body {margin: 0; padding: 0;}
+
+.map {
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+
+svg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.part {
+	opacity: .3;
+}
+
+.part:hover {
+	transition: opacity .2s ease-in-out;
+	opacity: .5;
+	cursor: pointer;
+}
+
+
+.description, .description_1 {
+	display: none;
+	position: absolute;
+	padding: 20px;
+	box-sizing: border-box;
+	width: 250px;
+	height: 100px;
+	left: 338px;
+	bottom: calc(50% - 174px);
+	font-family: sans-serif;
+}
+
+.description img, .description_1 img {
+	width: 250px;
+	margin-bottom: 20px;
+}
+
+.description + img, .description_1 + img { 
+	width: 100%;
+}
+
+.description_1 {
+	left: 573px;
+	bottom: calc(50% - 79px);
+	
+}
+
